@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GJKX Digital Marketing - Elevate Your Brand. Exponentially.</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles for a modern, professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Slate 50 */
+        }
+        
+        /* Custom gradient for hero button */
+        .btn-primary {
+            background-image: linear-gradient(to right, #4c51bf, #5a67d8); /* Indigo */
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.5), 0 4px 6px -2px rgba(79, 70, 229, 0.25);
+            transform: translateY(-2px);
+            background-image: linear-gradient(to right, #434190, #4c51bf);
+        }
+        
+        .section-heading {
+            border-left: 4px solid #38bdf8; /* Sky 400 accent */
+            padding-left: 1rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+                <!-- Logo -->
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="#" class="flex items-center space-x-2">
+                        <span class="text-3xl font-extrabold text-indigo-600">GJKX</span>
+                        <span class="text-3xl font-extrabold text-sky-500">Digital</span>
+                    </a>
+                </div>
+
+                <!-- Navigation Links (Hidden on mobile by default) -->
+                <nav class="hidden md:flex space-x-10">
+                    <a href="#services" class="text-base font-medium text-gray-500 hover:text-indigo-600 transition duration-150">Services</a>
+                    <a href="#about" class="text-base font-medium text-gray-500 hover:text-indigo-600 transition duration-150">Why Us</a>
+                    <a href="#testimonials" class="text-base font-medium text-gray-500 hover:text-indigo-600 transition duration-150">Results</a>
+                    <a href="#contact" class="text-base font-medium text-gray-500 hover:text-indigo-600 transition duration-150">Contact</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                    <a href="#contact" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full shadow-md text-base font-medium text-white bg-teal-500 hover:bg-teal-600 transition duration-150">
+                        Start Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section class="py-20 sm:py-32 bg-gradient-to-br from-indigo-50 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+                        Elevate Your Brand. <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-sky-500">Exponentially.</span>
+                    </h1>
+                    <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+                        We are a full-service digital marketing agency dedicated to turning your marketing spend into measurable, high-value customer acquisition.
+                    </p>
+                    <div class="mt-10 flex justify-center space-x-4">
+                        <a href="#contact" class="btn-primary text-white font-semibold py-3 px-8 rounded-full shadow-xl">
+                            Book a Free Strategy Session
+                            <span data-lucide="arrow-right" class="w-4 h-4 inline-block ml-2"></span>
+                        </a>
+                        <a href="#services" class="text-indigo-600 bg-white border border-indigo-200 hover:bg-indigo-50 font-medium py-3 px-8 rounded-full shadow-lg transition duration-150">
+                            View Our Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Services Section -->
+        <section id="services" class="py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 section-heading">Our Core Services</h2>
+                <p class="mt-4 text-xl text-gray-600">Data-driven strategies built for sustainable growth.</p>
+
+                <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+                    
+                    <!-- Service Card 1: SEO -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-[1.02] border-t-4 border-indigo-500">
+                        <div class="text-indigo-500 mb-4">
+                            <span data-lucide="search" class="w-8 h-8"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Search Engine Optimization (SEO)</h3>
+                        <p class="text-gray-600 text-sm">Dominate search results and capture organic traffic with technical, on-page, and off-page optimization.</p>
+                    </div>
+
+                    <!-- Service Card 2: Social Media -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-[1.02] border-t-4 border-sky-500">
+                        <div class="text-sky-500 mb-4">
+                            <span data-lucide="users" class="w-8 h-8"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Social Media Management</h3>
+                        <p class="text-gray-600 text-sm">Build community, engage followers, and drive conversions across all major social platforms.</p>
+                    </div>
+
+                    <!-- Service Card 3: PPC -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-[1.02] border-t-4 border-teal-500">
+                        <div class="text-teal-500 mb-4">
+                            <span data-lucide="zap" class="w-8 h-8"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Paid Advertising (PPC)</h3>
+                        <p class="text-gray-600 text-sm">Maximize ROI with targeted campaigns on Google Ads, Meta, and LinkedIn, constantly optimizing for profit.</p>
+                    </div>
+
+                    <!-- Service Card 4: Content Strategy -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-[1.02] border-t-4 border-pink-500">
+                        <div class="text-pink-500 mb-4">
+                            <span data-lucide="file-text" class="w-8 h-8"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">High-Impact Content Marketing</h3>
+                        <p class="text-gray-600 text-sm">Create compelling blogs, videos, and lead magnets that establish authority and nurture leads through the funnel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Why Choose Us / Value Proposition -->
+        <section id="about" class="py-16 sm:py-24 bg-indigo-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
+                    <div>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 section-heading">The GJKX Digital Difference</h2>
+                        <p class="mt-4 text-xl text-gray-600 mb-8">We combine deep market expertise with unwavering transparency.</p>
+                        
+                        <dl class="space-y-6">
+                            <div class="flex items-start">
+                                <span data-lucide="database" class="flex-shrink-0 w-6 h-6 text-indigo-600 mt-1"></span>
+                                <div class="ml-4">
+                                    <dt class="text-lg font-medium text-gray-900">100% Data-Driven Decisions</dt>
+                                    <dd class="mt-1 text-gray-600 text-sm">Every strategy is backed by deep analytics, not guesswork. We focus on KPIs that matter to your bottom line.</dd>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span data-lucide="eye" class="flex-shrink-0 w-6 h-6 text-indigo-600 mt-1"></span>
+                                <div class="ml-4">
+                                    <dt class="text-lg font-medium text-gray-900">Total Transparency</dt>
+                                    <dd class="mt-1 text-gray-600 text-sm">Access to real-time dashboards and open communication. You'll always know exactly where your investment is going.</dd>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span data-lucide="rocket" class="flex-shrink-0 w-6 h-6 text-indigo-600 mt-1"></span>
+                                <div class="ml-4">
+                                    <dt class="text-lg font-medium text-gray-900">Scalable & Future-Proof Strategies</dt>
+                                    <dd class="mt-1 text-gray-600 text-sm">We build marketing systems that adapt to industry changes and scale seamlessly as your business grows.</dd>
+                                </div>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <!-- Statistics/Mockup Placeholder -->
+                    <div class="mt-10 lg:mt-0">
+                        <img src="https://placehold.co/800x600/1D4ED8/ffffff?text=Performance+Dashboard+Mockup" alt="Performance dashboard illustration" class="w-full rounded-xl shadow-2xl transition duration-500 hover:rotate-1 hover:shadow-indigo-300" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Testimonials/Results Section -->
+        <section id="testimonials" class="py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center section-heading mx-auto w-fit">Proven Client Success</h2>
+                <p class="mt-4 text-xl text-gray-600 text-center">Don't just take our word for it—see the impact.</p>
+
+                <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+                    
+                    <!-- Testimonial 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 relative">
+                        <span data-lucide="quote" class="w-10 h-10 text-indigo-100 absolute top-4 left-4"></span>
+                        <blockquote class="text-lg italic text-gray-700 mt-4">
+                            "GJKX Digital took our organic traffic from non-existent to 15,000 visitors a month in less than a year. Their SEO team is relentless and truly understands the e-commerce space. The best decision we made this quarter."
+                        </blockquote>
+                        <div class="mt-6 flex items-center">
+                            <div class="flex-shrink-0">
+                                <img class="h-12 w-12 rounded-full object-cover" src="https://placehold.co/48x48/FBCF10/ffffff?text=JD" alt="Client Avatar">
+                            </div>
+                            <div class="ml-4">
+                                <div class="text-base font-semibold text-gray-900">Jasmine D.</div>
+                                <div class="text-sm font-medium text-indigo-600">CEO, Evolve Fashion</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 relative">
+                        <span data-lucide="quote" class="w-10 h-10 text-indigo-100 absolute top-4 left-4"></span>
+                        <blockquote class="text-lg italic text-gray-700 mt-4">
+                            "The PPC strategy they implemented immediately lowered our cost per acquisition by 35% while increasing qualified leads. Their reporting is exceptionally clear, making it easy to see the ROI."
+                        </blockquote>
+                        <div class="mt-6 flex items-center">
+                            <div class="flex-shrink-0">
+                                <img class="h-12 w-12 rounded-full object-cover" src="https://placehold.co/48x48/1A73E8/ffffff?text=MK" alt="Client Avatar">
+                            </div>
+                            <div class="ml-4">
+                                <div class="text-base font-semibold text-gray-900">Michael K.</div>
+                                <div class="text-sm font-medium text-teal-600">CMO, Tech Solutions Inc.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contact Section -->
+        <section id="contact" class="py-16 sm:py-24 bg-white shadow-inner">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-12">
+                    <!-- Left Side Content -->
+                    <div class="lg:col-span-5">
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 section-heading">Ready to Scale?</h2>
+                        <p class="mt-4 text-xl text-gray-600">Let's discuss your marketing goals and map out a strategy to achieve them.</p>
+                        <div class="mt-8 space-y-4">
+                            <p class="flex items-center text-gray-700">
+                                <span data-lucide="mail" class="w-5 h-5 text-indigo-500 mr-3"></span>
+                                hello@gjkxmarketing.online
+                            </p>
+                            <p class="flex items-center text-gray-700">
+                                <span data-lucide="phone" class="w-5 h-5 text-indigo-500 mr-3"></span>
+                                (347) 480-8033
+                            </p>
+                            <p class="flex items-start text-gray-700">
+                                <span data-lucide="map-pin" class="flex-shrink-0 w-5 h-5 text-indigo-500 mr-3 mt-1"></span>
+                                32 N Gould St. Sheridan, WY 82801
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side Form -->
+                    <div class="mt-10 lg:mt-0 lg:col-span-7">
+                        <div class="bg-indigo-50 p-8 rounded-xl shadow-2xl">
+                            <form id="contactForm" class="space-y-6">
+                                <div>
+                                    <label for="full-name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                                    <input type="text" name="full-name" id="full-name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150">
+                                </div>
+                                <div>
+                                    <label for="work-email" class="block text-sm font-medium text-gray-700">Work Email</label>
+                                    <input type="email" name="work-email" id="work-email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150">
+                                </div>
+                                <div>
+                                    <label for="project-details" class="block text-sm font-medium text-gray-700">Project Details (Goals, Budget, Timeline)</label>
+                                    <textarea id="project-details" name="project-details" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150"></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="w-full btn-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg text-lg">
+                                        Send Inquiry
+                                    </button>
+                                </div>
+                                <div id="formMessage" class="text-center font-medium text-sm hidden py-2 px-4 rounded-lg"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-indigo-400">GJKX Digital Marketing</h4>
+                    <p class="text-sm text-gray-400">Your partner for explosive digital growth and measurable results.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#services" class="text-gray-400 hover:text-indigo-400 transition">Our Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-indigo-400 transition">Why Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-indigo-400 transition">Case Studies</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Resources</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition">Blog (Mock)</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Connect</h5>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition" aria-label="LinkedIn">
+                            <span data-lucide="linkedin" class="w-6 h-6"></span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition" aria-label="Twitter">
+                            <span data-lucide="twitter" class="w-6 h-6"></span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition" aria-label="Facebook">
+                            <span data-lucide="facebook" class="w-6 h-6"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center">
+                <p class="text-sm text-gray-400">&copy; 2025 GJKX Digital Marketing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Icon Replacement and Form Handling -->
+    <script>
+        // Replace lucide icon tags with SVG elements
+        lucide.createIcons();
+
+        // Simple form handling (prevents default submit and displays a message)
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Show loading state/message
+            formMessage.textContent = 'Sending inquiry...';
+            formMessage.classList.remove('hidden', 'bg-red-100', 'text-red-700', 'bg-green-100', 'text-green-700');
+            formMessage.classList.add('bg-indigo-100', 'text-indigo-700');
+
+            // Simulate API call delay
+            setTimeout(() => {
+                // Clear inputs
+                contactForm.reset();
+                
+                // Show success message
+                formMessage.textContent = 'Thank you! Your inquiry has been sent successfully. We will be in touch within 24 hours.';
+                formMessage.classList.remove('bg-indigo-100', 'text-indigo-700');
+                formMessage.classList.add('bg-green-100', 'text-green-700');
+                
+                // Optional: Hide message after a few seconds
+                setTimeout(() => {
+                    formMessage.classList.add('hidden');
+                }, 5000);
+
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
